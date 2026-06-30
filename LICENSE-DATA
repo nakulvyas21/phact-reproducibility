@@ -1,0 +1,24 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright 2026 Heysuvi Labs, LLC
+
+The archived experimental data in this repository (the contents of results/),
+together with the documentation (README.md and PROVENANCE.md), is licensed under
+the Creative Commons Attribution 4.0 International License.
+
+You are free to share and adapt this material for any purpose, including
+commercially, provided you give appropriate credit, link to the license, and
+indicate if changes were made.
+
+Full license text:   https://creativecommons.org/licenses/by/4.0/legalcode
+Human-readable deed:  https://creativecommons.org/licenses/by/4.0/
+
+Attribution
+-----------
+Vyas, N. and Stoev, I. D. "Structural Certification for Reliable Physical Design
+with Language Models." Heysuvi Labs, LLC, 2026.
+
+Note: this CC BY 4.0 grant applies to the data and documentation only. The
+software in this repository is licensed separately under the Apache License,
+Version 2.0 (see LICENSE), and the PHACT method is subject to patent rights as
+described in NOTICE.

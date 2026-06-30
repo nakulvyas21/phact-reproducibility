@@ -1,0 +1,22 @@
+PHACT - Physics-Anchored Certification
+Copyright 2026 Heysuvi Labs, LLC
+
+This product includes software developed at Heysuvi Labs, LLC.
+
+The software in this repository (the physics engines, structural contracts,
+calibration tests, demonstration, and table-regeneration scripts) is licensed
+under the Apache License, Version 2.0 (see LICENSE).
+
+The archived experimental data under results/, together with the documentation
+(README.md, PROVENANCE.md), is licensed under the Creative Commons Attribution
+4.0 International License (CC BY 4.0); see LICENSE-DATA.
+
+Patent notice
+-------------
+The Physics-Anchored Certification (PHACT) method is the subject of patent
+rights held by Heysuvi Labs, LLC. The patent license granted under Section 3 of
+the Apache License, Version 2.0 extends only to the code released in this
+repository, as and to the extent that code is distributed here. No license,
+express or implied, is granted to any patent claim except to that limited
+extent. Use of the PHACT method beyond the code released in this repository may
+require a separate patent license from Heysuvi Labs, LLC.

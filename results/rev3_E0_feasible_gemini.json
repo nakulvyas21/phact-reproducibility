@@ -1,0 +1,212 @@
+{
+  "drone": {
+    "Design a drone trajectory through an 8 m canyon with 25-knot crosswind.": {
+      "physics_passed": false,
+      "latency_s": 33.57
+    },
+    "Plan a straight-line drone path at 15 m/s through a 5 m gap with 10-knot side wind.": {
+      "physics_passed": false,
+      "latency_s": 23.21
+    },
+    "Design a banked-curve manoeuvre for a drone entering a 12 m corridor with 30-knot gusts.": {
+      "physics_passed": false,
+      "latency_s": 72.53
+    },
+    "A drone must deliver a package through a 6 m urban alley with 20-knot crosswind at speed.": {
+      "physics_passed": false,
+      "latency_s": 37.56
+    },
+    "Design a slow-speed drone inspection path through a 4 m pipe with 5-knot internal airflow.": {
+      "physics_passed": true,
+      "latency_s": 23.21
+    },
+    "Plan a race-drone trajectory through a 10 m gate at maximum speed in 15-knot crosswind.": {
+      "physics_passed": true,
+      "latency_s": 50.09
+    },
+    "A surveillance drone must hold station in a 9 m valley with 18-knot side wind at low speed.": {
+      "physics_passed": false,
+      "latency_s": 34.75
+    },
+    "Design a cargo drone final approach through a 15 m loading bay entrance with 12-knot quartering wind.": {
+      "physics_passed": false,
+      "latency_s": 36.01
+    },
+    "Plan a search-and-rescue drone path through a 3 m forest gap with 8-knot variable crosswind.": {
+      "physics_passed": false,
+      "latency_s": 26.66
+    },
+    "Design a drone mapping run through a 20 m wide river gorge with 5-knot headwind at 10 m/s.": {
+      "physics_passed": true,
+      "latency_s": 40.75
+    }
+  },
+  "biochem": {
+    "Design a 20-base DNA hydrogel stable at 37 \u00b0C for a biomedical implant.": {
+      "physics_passed": true,
+      "latency_s": 68.74
+    },
+    "Create a 16-base DNA sequence that melts at exactly 60 \u00b0C for PCR primer use.": {
+      "physics_passed": true,
+      "latency_s": 37.23
+    },
+    "Design a 24-base DNA strand for a room-temperature (25 \u00b0C) DNA origami scaffold.": {
+      "physics_passed": true,
+      "latency_s": 15.52
+    },
+    "Synthesise a 18-base probe sequence stable at 42 \u00b0C for in-situ hybridisation.": {
+      "physics_passed": true,
+      "latency_s": 20.16
+    },
+    "Design a thermostable 22-base DNA hydrogel for use at 50 \u00b0C in industrial bioreactors.": {
+      "physics_passed": false,
+      "latency_s": 44.7
+    },
+    "Create a 15-base DNA hairpin stable at 30 \u00b0C for a biosensor application.": {
+      "physics_passed": true,
+      "latency_s": 93.26
+    },
+    "Design a 26-base antisense oligonucleotide stable at 37 \u00b0C in physiological salt.": {
+      "physics_passed": true,
+      "latency_s": 37.88
+    },
+    "Create a 20-base molecular beacon probe stable at 55 \u00b0C for real-time PCR.": {
+      "physics_passed": false,
+      "latency_s": 38.7
+    },
+    "Design a 28-base scaffold strand for a DNA nanomachine operating at 37 \u00b0C.": {
+      "physics_passed": true,
+      "latency_s": 22.94
+    },
+    "Design a 14-base DNA strand that melts at 45 \u00b0C for a temperature-switchable hydrogel.": {
+      "physics_passed": false,
+      "latency_s": 85.18
+    }
+  },
+  "astrophysics": {
+    "Calculate the chirp mass and validate the GW strain for a binary black hole merger with masses 36 M\u2609 and 29 M\u2609 at 410 Mpc at 100 Hz.": {
+      "physics_passed": true,
+      "latency_s": 62.83
+    },
+    "Predict the ISCO frequency for a 65 solar mass total binary black hole system.": {
+      "physics_passed": null,
+      "error": ""
+    },
+    "Calculate the Peters merger timescale for two 1.4 M\u2609 neutron stars at 0.01 AU separation.": {
+      "physics_passed": true,
+      "latency_s": 47.98
+    },
+    "Estimate the GW strain amplitude for a 10+10 M\u2609 binary at 100 Mpc at 50 Hz.": {
+      "physics_passed": true,
+      "latency_s": 43.51
+    },
+    "Find the chirp mass for a neutron-star black-hole binary with masses 1.4 M\u2609 and 10 M\u2609.": {
+      "physics_passed": true,
+      "latency_s": 5.43
+    },
+    "Calculate the merger time for a 30+30 M\u2609 binary starting at 0.1 AU separation.": {
+      "physics_passed": true,
+      "latency_s": 53.91
+    },
+    "Determine the ISCO peak frequency for an 80 M\u2609 total mass binary black hole system.": {
+      "physics_passed": true,
+      "latency_s": 23.87
+    },
+    "Estimate the GW strain for a double neutron star system at 40 Mpc emitting at 200 Hz.": {
+      "physics_passed": true,
+      "latency_s": 85.57
+    },
+    "Calculate the chirp mass for a 5+8 M\u2609 compact binary.": {
+      "physics_passed": true,
+      "latency_s": 8.54
+    },
+    "Predict the time to merger for a 20+25 M\u2609 binary black hole starting at 0.001 AU.": {
+      "physics_passed": true,
+      "latency_s": 38.53
+    }
+  },
+  "electrical": {
+    "Design an RC low-pass filter with -3 dB cutoff at 1 kHz.": {
+      "physics_passed": true,
+      "latency_s": 30.32
+    },
+    "Design an RC low-pass filter with -3 dB cutoff at 10 kHz.": {
+      "physics_passed": false,
+      "latency_s": 24.77
+    },
+    "Design an RC high-pass filter at 100 Hz to block DC offset.": {
+      "physics_passed": true,
+      "latency_s": 18.5
+    },
+    "Design an RC low-pass filter at 500 Hz for audio anti-aliasing.": {
+      "physics_passed": false,
+      "latency_s": 19.4
+    },
+    "Design an RC filter at 50 Hz to remove mains hum from a sensor signal.": {
+      "physics_passed": false,
+      "latency_s": 21.52
+    },
+    "Design an RC low-pass filter at 5 kHz for a data acquisition system.": {
+      "physics_passed": false,
+      "latency_s": 19.16
+    },
+    "Design an RC high-pass filter at 1 kHz for AC coupling.": {
+      "physics_passed": true,
+      "latency_s": 14.47
+    },
+    "Design an RC low-pass filter at 2 kHz for a loudspeaker crossover.": {
+      "physics_passed": false,
+      "latency_s": 30.34
+    },
+    "Design an RC low-pass filter at 20 kHz as an anti-aliasing filter before a 44.1 kHz ADC.": {
+      "physics_passed": false,
+      "latency_s": 30.7
+    },
+    "Design an RC high-pass filter at 300 Hz to remove low-frequency vibration noise.": {
+      "physics_passed": false,
+      "latency_s": 22.17
+    }
+  },
+  "drug_formulation": {
+    "Formulate a PLGA nanoparticle with good colloidal stability at physiological pH 7.4 in 150 mM NaCl.": {
+      "physics_passed": false,
+      "latency_s": 17.06
+    },
+    "Design a polystyrene nanoparticle of 150 nm diameter with stable colloidal suspension in 100 mM NaCl.": {
+      "physics_passed": true,
+      "latency_s": 40.24
+    },
+    "Formulate a silica nanoparticle of 200 nm with colloidal stability in 50 mM salt solution.": {
+      "physics_passed": true,
+      "latency_s": 24.27
+    },
+    "Design a lipid nanoparticle of 100 nm for mRNA delivery with stable zeta potential in PBS.": {
+      "physics_passed": false,
+      "latency_s": 24.03
+    },
+    "Design a chitosan nanoparticle of 250 nm with positive zeta potential stable in 10 mM NaCl.": {
+      "physics_passed": true,
+      "latency_s": 14.49
+    },
+    "Formulate a gold nanoparticle of 50 nm with colloidal stability in 200 mM NaCl.": {
+      "physics_passed": false,
+      "latency_s": 28.45
+    },
+    "Design a PLGA-PEG nanoparticle of 180 nm with stability in 150 mM physiological salt.": {
+      "physics_passed": false,
+      "latency_s": 23.38
+    },
+    "Formulate a protein nanocarrier of 120 nm with colloidal stability in 75 mM NaCl.": {
+      "physics_passed": false,
+      "latency_s": 23.99
+    },
+    "Design a polymer micelle of 80 nm with stable suspension in 100 mM salt at pH 7.": {
+      "physics_passed": true,
+      "latency_s": 31.25
+    },
+    "Formulate a lipid nanocapsule of 160 nm with colloidal stability in 125 mM NaCl.": {
+      "physics_passed": false,
+      "latency_s": 25.42
+    }
+  }
+}

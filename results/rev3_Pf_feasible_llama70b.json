@@ -1,0 +1,378 @@
+{
+  "drone": {
+    "Design a drone trajectory through an 8 m canyon with 25-knot crosswind.": {
+      "outcome": "error",
+      "certified": false,
+      "iters": 0,
+      "error_kind": "infra",
+      "error": "litellm.RateLimitError: litellm.RateLimitError: vertex_aiException - [{\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Resource exhausted. Please try again later",
+      "latency_s": 141.23
+    },
+    "Plan a straight-line drone path at 15 m/s through a 5 m gap with 10-knot side wind.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 2,
+      "error_kind": null,
+      "latency_s": 18.99
+    },
+    "Design a banked-curve manoeuvre for a drone entering a 12 m corridor with 30-knot gusts.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 1,
+      "error_kind": null,
+      "latency_s": 4.22
+    },
+    "A drone must deliver a package through a 6 m urban alley with 20-knot crosswind at speed.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 2,
+      "error_kind": "infra",
+      "latency_s": 8.81
+    },
+    "Design a slow-speed drone inspection path through a 4 m pipe with 5-knot internal airflow.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 1,
+      "error_kind": "infra",
+      "latency_s": 1.79
+    },
+    "Plan a race-drone trajectory through a 10 m gate at maximum speed in 15-knot crosswind.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 2,
+      "error_kind": null,
+      "latency_s": 40.32
+    },
+    "A surveillance drone must hold station in a 9 m valley with 18-knot side wind at low speed.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 2,
+      "error_kind": null,
+      "latency_s": 3.66
+    },
+    "Design a cargo drone final approach through a 15 m loading bay entrance with 12-knot quartering wind.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 2,
+      "error_kind": "infra",
+      "latency_s": 2.53
+    },
+    "Plan a search-and-rescue drone path through a 3 m forest gap with 8-knot variable crosswind.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 1,
+      "error_kind": "infra",
+      "latency_s": 16.7
+    },
+    "Design a drone mapping run through a 20 m wide river gorge with 5-knot headwind at 10 m/s.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 1,
+      "error_kind": "infra",
+      "latency_s": 1.34
+    }
+  },
+  "biochem": {
+    "Design a 20-base DNA hydrogel stable at 37 \u00b0C for a biomedical implant.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 1,
+      "error_kind": null,
+      "latency_s": 4.4
+    },
+    "Create a 16-base DNA sequence that melts at exactly 60 \u00b0C for PCR primer use.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 3,
+      "error_kind": "infra",
+      "latency_s": 9.72
+    },
+    "Design a 24-base DNA strand for a room-temperature (25 \u00b0C) DNA origami scaffold.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 1,
+      "error_kind": "infra",
+      "latency_s": 1.37
+    },
+    "Synthesise a 18-base probe sequence stable at 42 \u00b0C for in-situ hybridisation.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 1,
+      "error_kind": null,
+      "latency_s": 2.56
+    },
+    "Design a thermostable 22-base DNA hydrogel for use at 50 \u00b0C in industrial bioreactors.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 1,
+      "error_kind": null,
+      "latency_s": 9.17
+    },
+    "Create a 15-base DNA hairpin stable at 30 \u00b0C for a biosensor application.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 1,
+      "error_kind": "infra",
+      "latency_s": 16.63
+    },
+    "Design a 26-base antisense oligonucleotide stable at 37 \u00b0C in physiological salt.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 1,
+      "error_kind": null,
+      "latency_s": 2.96
+    },
+    "Create a 20-base molecular beacon probe stable at 55 \u00b0C for real-time PCR.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 2,
+      "error_kind": "infra",
+      "latency_s": 2.52
+    },
+    "Design a 28-base scaffold strand for a DNA nanomachine operating at 37 \u00b0C.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 1,
+      "error_kind": "infra",
+      "latency_s": 1.59
+    },
+    "Design a 14-base DNA strand that melts at 45 \u00b0C for a temperature-switchable hydrogel.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 3,
+      "error_kind": "infra",
+      "latency_s": 43.58
+    }
+  },
+  "astrophysics": {
+    "Calculate the chirp mass and validate the GW strain for a binary black hole merger with masses 36 M\u2609 and 29 M\u2609 at 410 Mpc at 100 Hz.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 4,
+      "error_kind": "infra",
+      "latency_s": 84.52
+    },
+    "Predict the ISCO frequency for a 65 solar mass total binary black hole system.": {
+      "outcome": "loop_closure",
+      "certified": false,
+      "iters": 0,
+      "error_kind": "loop_closure",
+      "error": "Model stopped without issuing a terminal verdict.",
+      "latency_s": 38.2
+    },
+    "Calculate the Peters merger timescale for two 1.4 M\u2609 neutron stars at 0.01 AU separation.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 2,
+      "error_kind": null,
+      "latency_s": 2.74
+    },
+    "Estimate the GW strain amplitude for a 10+10 M\u2609 binary at 100 Mpc at 50 Hz.": {
+      "outcome": "loop_closure",
+      "certified": false,
+      "iters": 0,
+      "error_kind": "loop_closure",
+      "error": "Model stopped without issuing a terminal verdict.",
+      "latency_s": 6.9
+    },
+    "Find the chirp mass for a neutron-star black-hole binary with masses 1.4 M\u2609 and 10 M\u2609.": {
+      "outcome": "loop_closure",
+      "certified": false,
+      "iters": 0,
+      "error_kind": "loop_closure",
+      "error": "Model stopped without issuing a terminal verdict.",
+      "latency_s": 8.96
+    },
+    "Calculate the merger time for a 30+30 M\u2609 binary starting at 0.1 AU separation.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 6,
+      "error_kind": null,
+      "latency_s": 22.52
+    },
+    "Determine the ISCO peak frequency for an 80 M\u2609 total mass binary black hole system.": {
+      "outcome": "loop_closure",
+      "certified": false,
+      "iters": 0,
+      "error_kind": "loop_closure",
+      "error": "Model stopped without issuing a terminal verdict.",
+      "latency_s": 10.86
+    },
+    "Estimate the GW strain for a double neutron star system at 40 Mpc emitting at 200 Hz.": {
+      "outcome": "loop_closure",
+      "certified": false,
+      "iters": 0,
+      "error_kind": "loop_closure",
+      "error": "Model stopped without issuing a terminal verdict.",
+      "latency_s": 3.31
+    },
+    "Calculate the chirp mass for a 5+8 M\u2609 compact binary.": {
+      "outcome": "loop_closure",
+      "certified": false,
+      "iters": 0,
+      "error_kind": "loop_closure",
+      "error": "Model stopped without issuing a terminal verdict.",
+      "latency_s": 2.0
+    },
+    "Predict the time to merger for a 20+25 M\u2609 binary black hole starting at 0.001 AU.": {
+      "outcome": "impossible",
+      "certified": false,
+      "iters": 3,
+      "error_kind": null,
+      "latency_s": 3.9
+    }
+  },
+  "electrical": {
+    "Design an RC low-pass filter with -3 dB cutoff at 1 kHz.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 1,
+      "error_kind": null,
+      "latency_s": 2.28
+    },
+    "Design an RC low-pass filter with -3 dB cutoff at 10 kHz.": {
+      "outcome": "loop_closure",
+      "certified": false,
+      "iters": 0,
+      "error_kind": "loop_closure",
+      "error": "Model stopped without issuing a terminal verdict.",
+      "latency_s": 1.9
+    },
+    "Design an RC high-pass filter at 100 Hz to block DC offset.": {
+      "outcome": "loop_closure",
+      "certified": false,
+      "iters": 0,
+      "error_kind": "loop_closure",
+      "error": "Model stopped without issuing a terminal verdict.",
+      "latency_s": 2.75
+    },
+    "Design an RC low-pass filter at 500 Hz for audio anti-aliasing.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 2,
+      "error_kind": null,
+      "latency_s": 3.63
+    },
+    "Design an RC filter at 50 Hz to remove mains hum from a sensor signal.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 2,
+      "error_kind": null,
+      "latency_s": 2.17
+    },
+    "Design an RC low-pass filter at 5 kHz for a data acquisition system.": {
+      "outcome": "loop_closure",
+      "certified": false,
+      "iters": 0,
+      "error_kind": "loop_closure",
+      "error": "Model stopped without issuing a terminal verdict.",
+      "latency_s": 1.95
+    },
+    "Design an RC high-pass filter at 1 kHz for AC coupling.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 3,
+      "error_kind": null,
+      "latency_s": 2.75
+    },
+    "Design an RC low-pass filter at 2 kHz for a loudspeaker crossover.": {
+      "outcome": "loop_closure",
+      "certified": false,
+      "iters": 0,
+      "error_kind": "loop_closure",
+      "error": "Model stopped without issuing a terminal verdict.",
+      "latency_s": 1.89
+    },
+    "Design an RC low-pass filter at 20 kHz as an anti-aliasing filter before a 44.1 kHz ADC.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 3,
+      "error_kind": null,
+      "latency_s": 2.3
+    },
+    "Design an RC high-pass filter at 300 Hz to remove low-frequency vibration noise.": {
+      "outcome": "loop_closure",
+      "certified": false,
+      "iters": 0,
+      "error_kind": "loop_closure",
+      "error": "Model stopped without issuing a terminal verdict.",
+      "latency_s": 2.22
+    }
+  },
+  "drug_formulation": {
+    "Formulate a PLGA nanoparticle with good colloidal stability at physiological pH 7.4 in 150 mM NaCl.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 2,
+      "error_kind": null,
+      "latency_s": 2.42
+    },
+    "Design a polystyrene nanoparticle of 150 nm diameter with stable colloidal suspension in 100 mM NaCl.": {
+      "outcome": "loop_closure",
+      "certified": false,
+      "iters": 0,
+      "error_kind": "loop_closure",
+      "error": "Model stopped without issuing a terminal verdict.",
+      "latency_s": 2.14
+    },
+    "Formulate a silica nanoparticle of 200 nm with colloidal stability in 50 mM salt solution.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 2,
+      "error_kind": null,
+      "latency_s": 2.38
+    },
+    "Design a lipid nanoparticle of 100 nm for mRNA delivery with stable zeta potential in PBS.": {
+      "outcome": "loop_closure",
+      "certified": false,
+      "iters": 0,
+      "error_kind": "loop_closure",
+      "error": "Model stopped without issuing a terminal verdict.",
+      "latency_s": 4.54
+    },
+    "Design a chitosan nanoparticle of 250 nm with positive zeta potential stable in 10 mM NaCl.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 1,
+      "error_kind": null,
+      "latency_s": 3.12
+    },
+    "Formulate a gold nanoparticle of 50 nm with colloidal stability in 200 mM NaCl.": {
+      "outcome": "loop_closure",
+      "certified": false,
+      "iters": 0,
+      "error_kind": "loop_closure",
+      "error": "Model stopped without issuing a terminal verdict.",
+      "latency_s": 1.9
+    },
+    "Design a PLGA-PEG nanoparticle of 180 nm with stability in 150 mM physiological salt.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 3,
+      "error_kind": null,
+      "latency_s": 2.86
+    },
+    "Formulate a protein nanocarrier of 120 nm with colloidal stability in 75 mM NaCl.": {
+      "outcome": "loop_closure",
+      "certified": false,
+      "iters": 0,
+      "error_kind": "loop_closure",
+      "error": "Model stopped without issuing a terminal verdict.",
+      "latency_s": 1.95
+    },
+    "Design a polymer micelle of 80 nm with stable suspension in 100 mM salt at pH 7.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 3,
+      "error_kind": null,
+      "latency_s": 3.66
+    },
+    "Formulate a lipid nanocapsule of 160 nm with colloidal stability in 125 mM NaCl.": {
+      "outcome": "certified",
+      "certified": true,
+      "iters": 3,
+      "error_kind": null,
+      "latency_s": 2.99
+    }
+  }
+}

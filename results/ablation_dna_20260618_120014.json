@@ -1,0 +1,416 @@
+{
+  "timestamp": "20260618_120014",
+  "model": "gemini-2.5-flash",
+  "domain": "biochem_dual",
+  "weak": [
+    {
+      "goal": "Design a DNA oligonucleotide that, when hybridised to its complement at 250 nM strand concentration in 50 mM NaCl, has a melting temperature Tm >= 65\u00b0C AND a hybridisation free energy \u0394G at 37\u00b0C of <= -9.0 kcal/mol. Propose a specific sequence (A/T/C/G only). Validate it with the physics tool.",
+      "mode": "weak",
+      "outcome": "certified",
+      "iterations": 4,
+      "rejections": 3,
+      "latency_s": 9.89,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a DNA probe sequence with Tm >= 70\u00b0C and \u0394G\u2083\u2087 <= -11.0 kcal/mol at 250 nM in 50 mM NaCl. Propose the full nucleotide sequence and validate it.",
+      "mode": "weak",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejections": 0,
+      "latency_s": 11.59,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design an oligonucleotide that hybridises stably at 37\u00b0C: Tm >= 60\u00b0C AND \u0394G\u2083\u2087 <= -8.0 kcal/mol at 250 nM in 50 mM NaCl. Propose and validate a sequence.",
+      "mode": "weak",
+      "outcome": "certified",
+      "iterations": 3,
+      "rejections": 2,
+      "latency_s": 16.38,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a DNA hydrogel crosslinker sequence with Tm >= 72\u00b0C and \u0394G\u2083\u2087 <= -12.0 kcal/mol at 250 nM strand concentration in 50 mM NaCl. Propose and validate.",
+      "mode": "weak",
+      "outcome": "certified",
+      "iterations": 2,
+      "rejections": 1,
+      "latency_s": 6.65,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a PCR primer with Tm >= 58\u00b0C and hybridisation free energy \u0394G\u2083\u2087 <= -7.5 kcal/mol at 250 nM in 50 mM NaCl. Provide the sequence and validate with the physics engine.",
+      "mode": "weak",
+      "outcome": "certified",
+      "iterations": 2,
+      "rejections": 1,
+      "latency_s": 14.53,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a DNA aptamer stem sequence: Tm >= 68\u00b0C AND \u0394G\u2083\u2087 <= -10.5 kcal/mol at 250 nM in 50 mM NaCl. Propose a valid DNA sequence and confirm with the validator.",
+      "mode": "weak",
+      "outcome": "certified",
+      "iterations": 3,
+      "rejections": 2,
+      "latency_s": 13.83,
+      "class": "feasible"
+    },
+    {
+      "goal": "I need a DNA linker oligonucleotide with Tm >= 55\u00b0C and \u0394G\u2083\u2087 <= -7.0 kcal/mol at 250 nM in 50 mM NaCl. Propose a full A/T/C/G sequence and validate it.",
+      "mode": "weak",
+      "outcome": "certified",
+      "iterations": 2,
+      "rejections": 1,
+      "latency_s": 4.92,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a DNA toehold for strand displacement: Tm >= 62\u00b0C and \u0394G\u2083\u2087 <= -8.8 kcal/mol at 250 nM strand concentration in 50 mM NaCl. Propose and validate.",
+      "mode": "weak",
+      "outcome": "certified",
+      "iterations": 3,
+      "rejections": 2,
+      "latency_s": 7.64,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a DNA beacon stem: melting temperature >= 75\u00b0C and \u0394G\u2083\u2087 <= -13.0 kcal/mol at 250 nM in 50 mM NaCl. Provide the sequence and run the physics validator.",
+      "mode": "weak",
+      "outcome": "certified",
+      "iterations": 2,
+      "rejections": 1,
+      "latency_s": 6.35,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a high-fidelity hybridisation probe: Tm >= 78\u00b0C and \u0394G\u2083\u2087 <= -14.0 kcal/mol at 250 nM in 50 mM NaCl. Propose a sequence and verify with the engine.",
+      "mode": "weak",
+      "outcome": "certified",
+      "iterations": 3,
+      "rejections": 2,
+      "latency_s": 9.02,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a 4-mer DNA sequence with Tm >= 80\u00b0C and \u0394G\u2083\u2087 <= -20.0 kcal/mol at 250 nM in 50 mM NaCl. The sequence must be exactly 4 bases long. Do not change the length. Validate with the physics engine.",
+      "mode": "weak",
+      "outcome": "impossible",
+      "iterations": 3,
+      "rejections": 3,
+      "latency_s": 12.34,
+      "class": "impossible"
+    },
+    {
+      "goal": "Design a 6-mer DNA sequence (exactly 6 bases, no more, no less) with Tm >= 90\u00b0C and \u0394G\u2083\u2087 <= -25.0 kcal/mol at 250 nM in 50 mM NaCl. Do not change the length. Validate.",
+      "mode": "weak",
+      "outcome": "impossible",
+      "iterations": 3,
+      "rejections": 3,
+      "latency_s": 11.83,
+      "class": "impossible"
+    },
+    {
+      "goal": "The sequence AAAAAAA (7 A's) is fixed and must not be modified. It must achieve Tm >= 65\u00b0C and \u0394G\u2083\u2087 <= -10.0 kcal/mol at 250 nM in 50 mM NaCl. Verify this exact sequence meets both constraints using the physics tool.",
+      "mode": "weak",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejections": 1,
+      "latency_s": 12.39,
+      "class": "impossible"
+    },
+    {
+      "goal": "Design a 5-mer DNA (exactly 5 bases) with Tm >= 70\u00b0C and \u0394G\u2083\u2087 <= -15.0 kcal/mol at 250 nM in 50 mM NaCl. Length is fixed at 5 \u2014 do not extend it. Validate.",
+      "mode": "weak",
+      "outcome": "impossible",
+      "iterations": 3,
+      "rejections": 3,
+      "latency_s": 11.25,
+      "class": "impossible"
+    },
+    {
+      "goal": "The sequence ATATATAT (8 bases, alternating AT) is fixed and must not be changed. It must have Tm >= 75\u00b0C and \u0394G\u2083\u2087 <= -12.0 kcal/mol at 250 nM in 50 mM NaCl. Verify with the physics tool.",
+      "mode": "weak",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejections": 1,
+      "latency_s": 13.12,
+      "class": "impossible"
+    }
+  ],
+  "strong": [
+    {
+      "goal": "Design a DNA oligonucleotide that, when hybridised to its complement at 250 nM strand concentration in 50 mM NaCl, has a melting temperature Tm >= 65\u00b0C AND a hybridisation free energy \u0394G at 37\u00b0C of <= -9.0 kcal/mol. Propose a specific sequence (A/T/C/G only). Validate it with the physics tool.",
+      "mode": "strong",
+      "outcome": "certified",
+      "iterations": 2,
+      "rejections": 1,
+      "latency_s": 9.34,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a DNA probe sequence with Tm >= 70\u00b0C and \u0394G\u2083\u2087 <= -11.0 kcal/mol at 250 nM in 50 mM NaCl. Propose the full nucleotide sequence and validate it.",
+      "mode": "strong",
+      "outcome": "certified",
+      "iterations": 2,
+      "rejections": 1,
+      "latency_s": 11.54,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design an oligonucleotide that hybridises stably at 37\u00b0C: Tm >= 60\u00b0C AND \u0394G\u2083\u2087 <= -8.0 kcal/mol at 250 nM in 50 mM NaCl. Propose and validate a sequence.",
+      "mode": "strong",
+      "outcome": "certified",
+      "iterations": 2,
+      "rejections": 1,
+      "latency_s": 6.82,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a DNA hydrogel crosslinker sequence with Tm >= 72\u00b0C and \u0394G\u2083\u2087 <= -12.0 kcal/mol at 250 nM strand concentration in 50 mM NaCl. Propose and validate.",
+      "mode": "strong",
+      "outcome": "certified",
+      "iterations": 2,
+      "rejections": 1,
+      "latency_s": 15.66,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a PCR primer with Tm >= 58\u00b0C and hybridisation free energy \u0394G\u2083\u2087 <= -7.5 kcal/mol at 250 nM in 50 mM NaCl. Provide the sequence and validate with the physics engine.",
+      "mode": "strong",
+      "outcome": "certified",
+      "iterations": 3,
+      "rejections": 2,
+      "latency_s": 15.27,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a DNA aptamer stem sequence: Tm >= 68\u00b0C AND \u0394G\u2083\u2087 <= -10.5 kcal/mol at 250 nM in 50 mM NaCl. Propose a valid DNA sequence and confirm with the validator.",
+      "mode": "strong",
+      "outcome": "certified",
+      "iterations": 3,
+      "rejections": 2,
+      "latency_s": 7.77,
+      "class": "feasible"
+    },
+    {
+      "goal": "I need a DNA linker oligonucleotide with Tm >= 55\u00b0C and \u0394G\u2083\u2087 <= -7.0 kcal/mol at 250 nM in 50 mM NaCl. Propose a full A/T/C/G sequence and validate it.",
+      "mode": "strong",
+      "outcome": "certified",
+      "iterations": 2,
+      "rejections": 1,
+      "latency_s": 11.4,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a DNA toehold for strand displacement: Tm >= 62\u00b0C and \u0394G\u2083\u2087 <= -8.8 kcal/mol at 250 nM strand concentration in 50 mM NaCl. Propose and validate.",
+      "mode": "strong",
+      "outcome": "impossible",
+      "iterations": 4,
+      "rejections": 4,
+      "latency_s": 15.57,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a DNA beacon stem: melting temperature >= 75\u00b0C and \u0394G\u2083\u2087 <= -13.0 kcal/mol at 250 nM in 50 mM NaCl. Provide the sequence and run the physics validator.",
+      "mode": "strong",
+      "outcome": "certified",
+      "iterations": 2,
+      "rejections": 1,
+      "latency_s": 17.03,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a high-fidelity hybridisation probe: Tm >= 78\u00b0C and \u0394G\u2083\u2087 <= -14.0 kcal/mol at 250 nM in 50 mM NaCl. Propose a sequence and verify with the engine.",
+      "mode": "strong",
+      "outcome": "certified",
+      "iterations": 2,
+      "rejections": 1,
+      "latency_s": 10.08,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a 4-mer DNA sequence with Tm >= 80\u00b0C and \u0394G\u2083\u2087 <= -20.0 kcal/mol at 250 nM in 50 mM NaCl. The sequence must be exactly 4 bases long. Do not change the length. Validate with the physics engine.",
+      "mode": "strong",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejections": 1,
+      "latency_s": 12.44,
+      "class": "impossible"
+    },
+    {
+      "goal": "Design a 6-mer DNA sequence (exactly 6 bases, no more, no less) with Tm >= 90\u00b0C and \u0394G\u2083\u2087 <= -25.0 kcal/mol at 250 nM in 50 mM NaCl. Do not change the length. Validate.",
+      "mode": "strong",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejections": 1,
+      "latency_s": 7.56,
+      "class": "impossible"
+    },
+    {
+      "goal": "The sequence AAAAAAA (7 A's) is fixed and must not be modified. It must achieve Tm >= 65\u00b0C and \u0394G\u2083\u2087 <= -10.0 kcal/mol at 250 nM in 50 mM NaCl. Verify this exact sequence meets both constraints using the physics tool.",
+      "mode": "strong",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejections": 1,
+      "latency_s": 7.9,
+      "class": "impossible"
+    },
+    {
+      "goal": "Design a 5-mer DNA (exactly 5 bases) with Tm >= 70\u00b0C and \u0394G\u2083\u2087 <= -15.0 kcal/mol at 250 nM in 50 mM NaCl. Length is fixed at 5 \u2014 do not extend it. Validate.",
+      "mode": "strong",
+      "outcome": "impossible",
+      "iterations": 3,
+      "rejections": 3,
+      "latency_s": 12.91,
+      "class": "impossible"
+    },
+    {
+      "goal": "The sequence ATATATAT (8 bases, alternating AT) is fixed and must not be changed. It must have Tm >= 75\u00b0C and \u0394G\u2083\u2087 <= -12.0 kcal/mol at 250 nM in 50 mM NaCl. Verify with the physics tool.",
+      "mode": "strong",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejections": 1,
+      "latency_s": 5.15,
+      "class": "impossible"
+    }
+  ],
+  "scm": [
+    {
+      "goal": "Design a DNA oligonucleotide that, when hybridised to its complement at 250 nM strand concentration in 50 mM NaCl, has a melting temperature Tm >= 65\u00b0C AND a hybridisation free energy \u0394G at 37\u00b0C of <= -9.0 kcal/mol. Propose a specific sequence (A/T/C/G only). Validate it with the physics tool.",
+      "mode": "scm",
+      "outcome": "certified",
+      "iterations": 2,
+      "rejections": 1,
+      "latency_s": 5.41,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a DNA probe sequence with Tm >= 70\u00b0C and \u0394G\u2083\u2087 <= -11.0 kcal/mol at 250 nM in 50 mM NaCl. Propose the full nucleotide sequence and validate it.",
+      "mode": "scm",
+      "outcome": "certified",
+      "iterations": 2,
+      "rejections": 1,
+      "latency_s": 5.52,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design an oligonucleotide that hybridises stably at 37\u00b0C: Tm >= 60\u00b0C AND \u0394G\u2083\u2087 <= -8.0 kcal/mol at 250 nM in 50 mM NaCl. Propose and validate a sequence.",
+      "mode": "scm",
+      "outcome": "certified",
+      "iterations": 2,
+      "rejections": 1,
+      "latency_s": 5.6,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a DNA hydrogel crosslinker sequence with Tm >= 72\u00b0C and \u0394G\u2083\u2087 <= -12.0 kcal/mol at 250 nM strand concentration in 50 mM NaCl. Propose and validate.",
+      "mode": "scm",
+      "outcome": "certified",
+      "iterations": 2,
+      "rejections": 1,
+      "latency_s": 5.58,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a PCR primer with Tm >= 58\u00b0C and hybridisation free energy \u0394G\u2083\u2087 <= -7.5 kcal/mol at 250 nM in 50 mM NaCl. Provide the sequence and validate with the physics engine.",
+      "mode": "scm",
+      "outcome": "certified",
+      "iterations": 2,
+      "rejections": 1,
+      "latency_s": 5.92,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a DNA aptamer stem sequence: Tm >= 68\u00b0C AND \u0394G\u2083\u2087 <= -10.5 kcal/mol at 250 nM in 50 mM NaCl. Propose a valid DNA sequence and confirm with the validator.",
+      "mode": "scm",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejections": 0,
+      "latency_s": 3.46,
+      "class": "feasible"
+    },
+    {
+      "goal": "I need a DNA linker oligonucleotide with Tm >= 55\u00b0C and \u0394G\u2083\u2087 <= -7.0 kcal/mol at 250 nM in 50 mM NaCl. Propose a full A/T/C/G sequence and validate it.",
+      "mode": "scm",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejections": 0,
+      "latency_s": 3.74,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a DNA toehold for strand displacement: Tm >= 62\u00b0C and \u0394G\u2083\u2087 <= -8.8 kcal/mol at 250 nM strand concentration in 50 mM NaCl. Propose and validate.",
+      "mode": "scm",
+      "outcome": "certified",
+      "iterations": 2,
+      "rejections": 1,
+      "latency_s": 5.49,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a DNA beacon stem: melting temperature >= 75\u00b0C and \u0394G\u2083\u2087 <= -13.0 kcal/mol at 250 nM in 50 mM NaCl. Provide the sequence and run the physics validator.",
+      "mode": "scm",
+      "outcome": "certified",
+      "iterations": 2,
+      "rejections": 1,
+      "latency_s": 12.57,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a high-fidelity hybridisation probe: Tm >= 78\u00b0C and \u0394G\u2083\u2087 <= -14.0 kcal/mol at 250 nM in 50 mM NaCl. Propose a sequence and verify with the engine.",
+      "mode": "scm",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejections": 0,
+      "latency_s": 4.25,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a 4-mer DNA sequence with Tm >= 80\u00b0C and \u0394G\u2083\u2087 <= -20.0 kcal/mol at 250 nM in 50 mM NaCl. The sequence must be exactly 4 bases long. Do not change the length. Validate with the physics engine.",
+      "mode": "scm",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejections": 1,
+      "latency_s": 6.39,
+      "class": "impossible"
+    },
+    {
+      "goal": "Design a 6-mer DNA sequence (exactly 6 bases, no more, no less) with Tm >= 90\u00b0C and \u0394G\u2083\u2087 <= -25.0 kcal/mol at 250 nM in 50 mM NaCl. Do not change the length. Validate.",
+      "mode": "scm",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejections": 1,
+      "latency_s": 7.53,
+      "class": "impossible"
+    },
+    {
+      "goal": "The sequence AAAAAAA (7 A's) is fixed and must not be modified. It must achieve Tm >= 65\u00b0C and \u0394G\u2083\u2087 <= -10.0 kcal/mol at 250 nM in 50 mM NaCl. Verify this exact sequence meets both constraints using the physics tool.",
+      "mode": "scm",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejections": 1,
+      "latency_s": 4.39,
+      "class": "impossible"
+    },
+    {
+      "goal": "Design a 5-mer DNA (exactly 5 bases) with Tm >= 70\u00b0C and \u0394G\u2083\u2087 <= -15.0 kcal/mol at 250 nM in 50 mM NaCl. Length is fixed at 5 \u2014 do not extend it. Validate.",
+      "mode": "scm",
+      "outcome": "impossible",
+      "iterations": 3,
+      "rejections": 3,
+      "latency_s": 14.01,
+      "class": "impossible"
+    },
+    {
+      "goal": "The sequence ATATATAT (8 bases, alternating AT) is fixed and must not be changed. It must have Tm >= 75\u00b0C and \u0394G\u2083\u2087 <= -12.0 kcal/mol at 250 nM in 50 mM NaCl. Verify with the physics tool.",
+      "mode": "scm",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejections": 1,
+      "latency_s": 7.2,
+      "class": "impossible"
+    }
+  ]
+}

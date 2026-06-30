@@ -1,0 +1,416 @@
+{
+  "timestamp": "20260618_115514",
+  "model": "gemini-2.5-flash",
+  "domain": "electrical",
+  "weak": [
+    {
+      "goal": "Design an RC low-pass filter with a -3 dB cutoff of exactly 5000 Hz using a fixed capacitor C = 0.01 uF. Find the resistor value.",
+      "mode": "weak",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 4.35,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design an RC low-pass filter with a -3 dB cutoff of exactly 2400 Hz using a fixed capacitor C = 0.022 uF. Find the resistor value.",
+      "mode": "weak",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 3.74,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design an RC high-pass filter with a -3 dB cutoff of exactly 800 Hz using a fixed capacitor C = 0.047 uF. Find the resistor value.",
+      "mode": "weak",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 3.82,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design an RC low-pass filter with a -3 dB cutoff of exactly 15000 Hz using a fixed capacitor C = 0.0033 uF. Find the resistor value.",
+      "mode": "weak",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 4.89,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design an RC low-pass filter with a -3 dB cutoff of exactly 120 Hz using a fixed capacitor C = 0.1 uF. Find the resistor value.",
+      "mode": "weak",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 4.1,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design an RC high-pass filter with a -3 dB cutoff of exactly 3300 Hz using a fixed capacitor C = 0.015 uF. Find the resistor value.",
+      "mode": "weak",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 3.78,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design an RC low-pass filter with a -3 dB cutoff of exactly 9500 Hz using a fixed capacitor C = 0.0047 uF. Find the resistor value.",
+      "mode": "weak",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 4.6,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design an RC low-pass filter with a -3 dB cutoff of exactly 640 Hz using a fixed capacitor C = 0.068 uF. Find the resistor value.",
+      "mode": "weak",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 3.76,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design an RC high-pass filter with a -3 dB cutoff of exactly 18000 Hz using a fixed capacitor C = 0.0022 uF. Find the resistor value.",
+      "mode": "weak",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 3.5,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design an RC low-pass filter with a -3 dB cutoff of exactly 450 Hz using a fixed capacitor C = 0.033 uF. Find the resistor value.",
+      "mode": "weak",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 4.38,
+      "class": "feasible"
+    },
+    {
+      "goal": "An RC low-pass filter must have a -3 dB cutoff of exactly 1 kHz. The resistor is fixed at R = 1 ohm and the capacitor is fixed at C = 1 pF. You must not change R or C. Verify the filter meets the 1 kHz specification.",
+      "mode": "weak",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejected_before_pass": 1,
+      "latency_s": 7.07,
+      "class": "impossible"
+    },
+    {
+      "goal": "An RC filter must achieve a -3 dB cutoff of exactly 1 MHz. The resistor is fixed at R = 1 Mohm and the capacitor is fixed at C = 1 F. You must not change R or C. Verify the filter meets the 1 MHz specification.",
+      "mode": "weak",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejected_before_pass": 1,
+      "latency_s": 5.14,
+      "class": "impossible"
+    },
+    {
+      "goal": "An RC low-pass filter must meet a -3 dB cutoff of exactly 60 Hz. The resistor is fixed at R = 1 ohm and the capacitor is fixed at C = 1 nF. You must not change R or C. Verify the filter meets the 60 Hz specification.",
+      "mode": "weak",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejected_before_pass": 1,
+      "latency_s": 7.79,
+      "class": "impossible"
+    },
+    {
+      "goal": "An RC high-pass filter must achieve a -3 dB cutoff of exactly 10 kHz. The resistor is fixed at R = 1 Gohm and the capacitor is fixed at C = 1 pF. You must not change R or C. Verify the filter meets the 10 kHz specification.",
+      "mode": "weak",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejected_before_pass": 1,
+      "latency_s": 9.33,
+      "class": "impossible"
+    },
+    {
+      "goal": "An RC filter must have a -3 dB cutoff of exactly 100 Hz. The resistor is fixed at R = 1 ohm and the capacitor is fixed at C = 1 uF (1e-6 F). You must not change R or C. Verify the filter meets the 100 Hz specification.",
+      "mode": "weak",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejected_before_pass": 1,
+      "latency_s": 5.46,
+      "class": "impossible"
+    }
+  ],
+  "strong": [
+    {
+      "goal": "Design an RC low-pass filter with a -3 dB cutoff of exactly 5000 Hz using a fixed capacitor C = 0.01 uF. Find the resistor value.",
+      "mode": "strong",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 3.78,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design an RC low-pass filter with a -3 dB cutoff of exactly 2400 Hz using a fixed capacitor C = 0.022 uF. Find the resistor value.",
+      "mode": "strong",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 3.86,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design an RC high-pass filter with a -3 dB cutoff of exactly 800 Hz using a fixed capacitor C = 0.047 uF. Find the resistor value.",
+      "mode": "strong",
+      "outcome": "certified",
+      "iterations": 2,
+      "rejected_before_pass": 1,
+      "latency_s": 5.7,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design an RC low-pass filter with a -3 dB cutoff of exactly 15000 Hz using a fixed capacitor C = 0.0033 uF. Find the resistor value.",
+      "mode": "strong",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 10.04,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design an RC low-pass filter with a -3 dB cutoff of exactly 120 Hz using a fixed capacitor C = 0.1 uF. Find the resistor value.",
+      "mode": "strong",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 3.48,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design an RC high-pass filter with a -3 dB cutoff of exactly 3300 Hz using a fixed capacitor C = 0.015 uF. Find the resistor value.",
+      "mode": "strong",
+      "outcome": "certified",
+      "iterations": 2,
+      "rejected_before_pass": 1,
+      "latency_s": 7.86,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design an RC low-pass filter with a -3 dB cutoff of exactly 9500 Hz using a fixed capacitor C = 0.0047 uF. Find the resistor value.",
+      "mode": "strong",
+      "outcome": "certified",
+      "iterations": 2,
+      "rejected_before_pass": 1,
+      "latency_s": 5.56,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design an RC low-pass filter with a -3 dB cutoff of exactly 640 Hz using a fixed capacitor C = 0.068 uF. Find the resistor value.",
+      "mode": "strong",
+      "outcome": "certified",
+      "iterations": 2,
+      "rejected_before_pass": 1,
+      "latency_s": 10.16,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design an RC high-pass filter with a -3 dB cutoff of exactly 18000 Hz using a fixed capacitor C = 0.0022 uF. Find the resistor value.",
+      "mode": "strong",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 4.79,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design an RC low-pass filter with a -3 dB cutoff of exactly 450 Hz using a fixed capacitor C = 0.033 uF. Find the resistor value.",
+      "mode": "strong",
+      "outcome": "certified",
+      "iterations": 2,
+      "rejected_before_pass": 1,
+      "latency_s": 7.63,
+      "class": "feasible"
+    },
+    {
+      "goal": "An RC low-pass filter must have a -3 dB cutoff of exactly 1 kHz. The resistor is fixed at R = 1 ohm and the capacitor is fixed at C = 1 pF. You must not change R or C. Verify the filter meets the 1 kHz specification.",
+      "mode": "strong",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejected_before_pass": 1,
+      "latency_s": 4.79,
+      "class": "impossible"
+    },
+    {
+      "goal": "An RC filter must achieve a -3 dB cutoff of exactly 1 MHz. The resistor is fixed at R = 1 Mohm and the capacitor is fixed at C = 1 F. You must not change R or C. Verify the filter meets the 1 MHz specification.",
+      "mode": "strong",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejected_before_pass": 1,
+      "latency_s": 5.72,
+      "class": "impossible"
+    },
+    {
+      "goal": "An RC low-pass filter must meet a -3 dB cutoff of exactly 60 Hz. The resistor is fixed at R = 1 ohm and the capacitor is fixed at C = 1 nF. You must not change R or C. Verify the filter meets the 60 Hz specification.",
+      "mode": "strong",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejected_before_pass": 1,
+      "latency_s": 7.66,
+      "class": "impossible"
+    },
+    {
+      "goal": "An RC high-pass filter must achieve a -3 dB cutoff of exactly 10 kHz. The resistor is fixed at R = 1 Gohm and the capacitor is fixed at C = 1 pF. You must not change R or C. Verify the filter meets the 10 kHz specification.",
+      "mode": "strong",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejected_before_pass": 1,
+      "latency_s": 6.64,
+      "class": "impossible"
+    },
+    {
+      "goal": "An RC filter must have a -3 dB cutoff of exactly 100 Hz. The resistor is fixed at R = 1 ohm and the capacitor is fixed at C = 1 uF (1e-6 F). You must not change R or C. Verify the filter meets the 100 Hz specification.",
+      "mode": "strong",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejected_before_pass": 1,
+      "latency_s": 6.14,
+      "class": "impossible"
+    }
+  ],
+  "scm": [
+    {
+      "goal": "Design an RC low-pass filter with a -3 dB cutoff of exactly 5000 Hz using a fixed capacitor C = 0.01 uF. Find the resistor value.",
+      "mode": "scm",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 3.96,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design an RC low-pass filter with a -3 dB cutoff of exactly 2400 Hz using a fixed capacitor C = 0.022 uF. Find the resistor value.",
+      "mode": "scm",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 3.26,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design an RC high-pass filter with a -3 dB cutoff of exactly 800 Hz using a fixed capacitor C = 0.047 uF. Find the resistor value.",
+      "mode": "scm",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 12.35,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design an RC low-pass filter with a -3 dB cutoff of exactly 15000 Hz using a fixed capacitor C = 0.0033 uF. Find the resistor value.",
+      "mode": "scm",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 4.25,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design an RC low-pass filter with a -3 dB cutoff of exactly 120 Hz using a fixed capacitor C = 0.1 uF. Find the resistor value.",
+      "mode": "scm",
+      "outcome": "certified",
+      "iterations": 2,
+      "rejected_before_pass": 1,
+      "latency_s": 3.96,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design an RC high-pass filter with a -3 dB cutoff of exactly 3300 Hz using a fixed capacitor C = 0.015 uF. Find the resistor value.",
+      "mode": "scm",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 3.85,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design an RC low-pass filter with a -3 dB cutoff of exactly 9500 Hz using a fixed capacitor C = 0.0047 uF. Find the resistor value.",
+      "mode": "scm",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 3.39,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design an RC low-pass filter with a -3 dB cutoff of exactly 640 Hz using a fixed capacitor C = 0.068 uF. Find the resistor value.",
+      "mode": "scm",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 5.83,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design an RC high-pass filter with a -3 dB cutoff of exactly 18000 Hz using a fixed capacitor C = 0.0022 uF. Find the resistor value.",
+      "mode": "scm",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 3.27,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design an RC low-pass filter with a -3 dB cutoff of exactly 450 Hz using a fixed capacitor C = 0.033 uF. Find the resistor value.",
+      "mode": "scm",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 4.25,
+      "class": "feasible"
+    },
+    {
+      "goal": "An RC low-pass filter must have a -3 dB cutoff of exactly 1 kHz. The resistor is fixed at R = 1 ohm and the capacitor is fixed at C = 1 pF. You must not change R or C. Verify the filter meets the 1 kHz specification.",
+      "mode": "scm",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejected_before_pass": 1,
+      "latency_s": 5.35,
+      "class": "impossible"
+    },
+    {
+      "goal": "An RC filter must achieve a -3 dB cutoff of exactly 1 MHz. The resistor is fixed at R = 1 Mohm and the capacitor is fixed at C = 1 F. You must not change R or C. Verify the filter meets the 1 MHz specification.",
+      "mode": "scm",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejected_before_pass": 1,
+      "latency_s": 6.48,
+      "class": "impossible"
+    },
+    {
+      "goal": "An RC low-pass filter must meet a -3 dB cutoff of exactly 60 Hz. The resistor is fixed at R = 1 ohm and the capacitor is fixed at C = 1 nF. You must not change R or C. Verify the filter meets the 60 Hz specification.",
+      "mode": "scm",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejected_before_pass": 1,
+      "latency_s": 6.05,
+      "class": "impossible"
+    },
+    {
+      "goal": "An RC high-pass filter must achieve a -3 dB cutoff of exactly 10 kHz. The resistor is fixed at R = 1 Gohm and the capacitor is fixed at C = 1 pF. You must not change R or C. Verify the filter meets the 10 kHz specification.",
+      "mode": "scm",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejected_before_pass": 1,
+      "latency_s": 6.11,
+      "class": "impossible"
+    },
+    {
+      "goal": "An RC filter must have a -3 dB cutoff of exactly 100 Hz. The resistor is fixed at R = 1 ohm and the capacitor is fixed at C = 1 uF (1e-6 F). You must not change R or C. Verify the filter meets the 100 Hz specification.",
+      "mode": "scm",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejected_before_pass": 1,
+      "latency_s": 4.84,
+      "class": "impossible"
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "timestamp": "20260618_121321",
+  "model": "gemini-2.5-flash",
+  "string": [
+    {
+      "goal": "Formulate a PLGA nanoparticle with good colloidal stability at physiological salt (150 mM).",
+      "mode": "string",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 2.94,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a polystyrene nanoparticle of 150 nm diameter with stable colloidal suspension in 100 mM NaCl.",
+      "mode": "string",
+      "outcome": "certified",
+      "iterations": 2,
+      "rejected_before_pass": 1,
+      "latency_s": 7.03,
+      "class": "feasible"
+    },
+    {
+      "goal": "Formulate a silica nanoparticle of 200 nm with colloidal stability in 50 mM salt.",
+      "mode": "string",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 4.33,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a lipid nanoparticle of 100 nm for mRNA delivery with stable zeta potential in 150 mM NaCl.",
+      "mode": "string",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 3.19,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a chitosan nanoparticle of 250 nm with positive zeta potential stable in 100 mM salt.",
+      "mode": "string",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 3.23,
+      "class": "feasible"
+    },
+    {
+      "goal": "Formulate a gold nanoparticle of 50 nm with colloidal stability in 20 mM NaCl.",
+      "mode": "string",
+      "outcome": "certified",
+      "iterations": 2,
+      "rejected_before_pass": 1,
+      "latency_s": 11.63,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a PLGA-PEG nanoparticle of 180 nm with stability in 150 mM physiological saline.",
+      "mode": "string",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 2.9,
+      "class": "feasible"
+    },
+    {
+      "goal": "Formulate a protein nanocarrier of 120 nm with colloidal stability in 75 mM salt.",
+      "mode": "string",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 4.0,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a polymer micelle of 80 nm with stable suspension in 100 mM salt.",
+      "mode": "string",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 10.18,
+      "class": "feasible"
+    },
+    {
+      "goal": "Formulate a lipid nanocapsule of 160 nm with colloidal stability in 120 mM NaCl.",
+      "mode": "string",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 3.47,
+      "class": "feasible"
+    },
+    {
+      "goal": "A gold nanoparticle formulation has fixed particle radius=250 nm, fixed zeta potential=-15 mV, and must be stable in 1000 mM NaCl. You must not change the particle size, zeta potential, material, or salt concentration. Verify that this exact formulation is colloidally stable.",
+      "mode": "string",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejected_before_pass": 1,
+      "latency_s": 6.63,
+      "class": "impossible"
+    },
+    {
+      "goal": "A polystyrene nanoparticle formulation has fixed particle radius=500 nm, fixed zeta potential=-8 mV, and must be stable in 500 mM NaCl. You must not change the particle size, zeta potential, material, or salt concentration. Verify that this exact formulation is colloidally stable.",
+      "mode": "string",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejected_before_pass": 1,
+      "latency_s": 4.66,
+      "class": "impossible"
+    },
+    {
+      "goal": "A PLGA nanoparticle formulation has fixed particle radius=400 nm, fixed zeta potential=-5 mV, and must be stable in 800 mM NaCl. You must not change the particle size, zeta potential, material, or salt concentration. Verify that this exact formulation is colloidally stable.",
+      "mode": "string",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejected_before_pass": 1,
+      "latency_s": 28.19,
+      "class": "impossible"
+    },
+    {
+      "goal": "A silica nanoparticle formulation has fixed particle radius=300 nm, fixed zeta potential=-3 mV, and must be stable in 600 mM NaCl. You must not change the particle size, zeta potential, material, or salt concentration. Verify that this exact formulation is colloidally stable.",
+      "mode": "string",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejected_before_pass": 1,
+      "latency_s": 4.82,
+      "class": "impossible"
+    },
+    {
+      "goal": "A lipid nanoparticle formulation has fixed particle radius=350 nm, fixed zeta potential=-2 mV, and must be stable in 700 mM NaCl. You must not change the particle size, zeta potential, material, or salt concentration. Verify that this exact formulation is colloidally stable.",
+      "mode": "string",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejected_before_pass": 1,
+      "latency_s": 5.06,
+      "class": "impossible"
+    }
+  ],
+  "scm": [
+    {
+      "goal": "Formulate a PLGA nanoparticle with good colloidal stability at physiological salt (150 mM).",
+      "mode": "scm",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 2.72,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a polystyrene nanoparticle of 150 nm diameter with stable colloidal suspension in 100 mM NaCl.",
+      "mode": "scm",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 3.63,
+      "class": "feasible"
+    },
+    {
+      "goal": "Formulate a silica nanoparticle of 200 nm with colloidal stability in 50 mM salt.",
+      "mode": "scm",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 2.58,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a lipid nanoparticle of 100 nm for mRNA delivery with stable zeta potential in 150 mM NaCl.",
+      "mode": "scm",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 4.01,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a chitosan nanoparticle of 250 nm with positive zeta potential stable in 100 mM salt.",
+      "mode": "scm",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 2.87,
+      "class": "feasible"
+    },
+    {
+      "goal": "Formulate a gold nanoparticle of 50 nm with colloidal stability in 20 mM NaCl.",
+      "mode": "scm",
+      "outcome": "impossible",
+      "iterations": 3,
+      "rejected_before_pass": 3,
+      "latency_s": 13.41,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a PLGA-PEG nanoparticle of 180 nm with stability in 150 mM physiological saline.",
+      "mode": "scm",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 2.9,
+      "class": "feasible"
+    },
+    {
+      "goal": "Formulate a protein nanocarrier of 120 nm with colloidal stability in 75 mM salt.",
+      "mode": "scm",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 3.71,
+      "class": "feasible"
+    },
+    {
+      "goal": "Design a polymer micelle of 80 nm with stable suspension in 100 mM salt.",
+      "mode": "scm",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 3.54,
+      "class": "feasible"
+    },
+    {
+      "goal": "Formulate a lipid nanocapsule of 160 nm with colloidal stability in 120 mM NaCl.",
+      "mode": "scm",
+      "outcome": "certified",
+      "iterations": 1,
+      "rejected_before_pass": 0,
+      "latency_s": 4.1,
+      "class": "feasible"
+    },
+    {
+      "goal": "A gold nanoparticle formulation has fixed particle radius=250 nm, fixed zeta potential=-15 mV, and must be stable in 1000 mM NaCl. You must not change the particle size, zeta potential, material, or salt concentration. Verify that this exact formulation is colloidally stable.",
+      "mode": "scm",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejected_before_pass": 1,
+      "latency_s": 6.31,
+      "class": "impossible"
+    },
+    {
+      "goal": "A polystyrene nanoparticle formulation has fixed particle radius=500 nm, fixed zeta potential=-8 mV, and must be stable in 500 mM NaCl. You must not change the particle size, zeta potential, material, or salt concentration. Verify that this exact formulation is colloidally stable.",
+      "mode": "scm",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejected_before_pass": 1,
+      "latency_s": 11.21,
+      "class": "impossible"
+    },
+    {
+      "goal": "A PLGA nanoparticle formulation has fixed particle radius=400 nm, fixed zeta potential=-5 mV, and must be stable in 800 mM NaCl. You must not change the particle size, zeta potential, material, or salt concentration. Verify that this exact formulation is colloidally stable.",
+      "mode": "scm",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejected_before_pass": 1,
+      "latency_s": 9.0,
+      "class": "impossible"
+    },
+    {
+      "goal": "A silica nanoparticle formulation has fixed particle radius=300 nm, fixed zeta potential=-3 mV, and must be stable in 600 mM NaCl. You must not change the particle size, zeta potential, material, or salt concentration. Verify that this exact formulation is colloidally stable.",
+      "mode": "scm",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejected_before_pass": 1,
+      "latency_s": 7.16,
+      "class": "impossible"
+    },
+    {
+      "goal": "A lipid nanoparticle formulation has fixed particle radius=350 nm, fixed zeta potential=-2 mV, and must be stable in 700 mM NaCl. You must not change the particle size, zeta potential, material, or salt concentration. Verify that this exact formulation is colloidally stable.",
+      "mode": "scm",
+      "outcome": "impossible",
+      "iterations": 1,
+      "rejected_before_pass": 1,
+      "latency_s": 6.7,
+      "class": "impossible"
+    }
+  ]
+}
