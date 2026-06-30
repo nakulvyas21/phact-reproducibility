@@ -40,4 +40,4 @@ where = ["."]
 include = ["phact_physics*"]
 
 [project.urls]
-Paper = "https://www.nature.com/natmachintell/"
+Paper = "https://arxiv.org/abs/2606.30107"
